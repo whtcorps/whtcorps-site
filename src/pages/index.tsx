@@ -5,7 +5,7 @@ import { Code } from "../components/code";
 import { Link } from "../components/link";
 
 const command =
-  "gatsby new my-app https://github.com/gojutin/gatsby-starter-typescript-deluxe";
+  "git clone https://www.github.com/YosiSF/EinsteinDB";
 
 const App = () => (
   <Layout>

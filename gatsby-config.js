@@ -1,6 +1,6 @@
-const siteTitle = "gatsby-starter-typescript-deluxe";
+const siteTitle = "In-Memory Append-Only Hybrid OLAP/OLTP Relativistic SQL via EinsteinDB";
 const siteDescription =
-  "A Gatsby starter with TypeScript, Storybook, Styled Components, Framer Motion, Jest, and more.";
+  "NewSQL EinsteinDB stack allows causal consistent, single writer/multiple reader, repeatable reads; low latency, high throughput, embedded knowledge base ";
 const siteAuthor = "@gojutin";
 const siteUrl = "https://gatsby-starter-typescript-deluxe.netlify.com";
 const siteImage = `${siteUrl}/icons/icon_512x512.png`;
