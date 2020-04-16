@@ -1,10 +1,10 @@
 const siteTitle = "In-Memory Append-Only Hybrid OLAP/OLTP Relativistic SQL via EinsteinDB";
 const siteDescription =
-  "NewSQL EinsteinDB stack allows causal consistent, single writer/multiple reader, repeatable reads; low latency, high throughput, embedded knowledge base ";
+  "NewSQL EinsteinDB stack allows causal consistent, single writer/multiple reader, repeatable reads; lockfree transaction isolation, low latency, high throughput embedded knowledge base";
 const siteAuthor = "@gojutin";
-const siteUrl = "https://gatsby-starter-typescript-deluxe.netlify.com";
+const siteUrl = "https://wwww.github.com/YosiSF/EinsteinDB.com";
 const siteImage = `${siteUrl}/icons/icon_512x512.png`;
-const siteKeywords = ["gatsby", "typescript", "starter", "javascript", "react"];
+const siteKeywords = ["gatsby", "rust", "golang", "yacc", "typescript", "starter", "javascript", "react"];
 
 module.exports = {
   siteMetadata: {
