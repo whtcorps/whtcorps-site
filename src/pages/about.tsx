@@ -19,7 +19,7 @@ const StyledComponent1 = styled.p`
 `;
 
 /*
-  2. A styled component that changes color based on the screen size 
+  2. A styled component that changes color based on the screen size
   using the theme.
 */
 const StyledComponent2 = styled.p`
@@ -43,7 +43,7 @@ const OrangeBlock = styled(motion.div)`
 
 /*
   4. A styled component that extends a framer-motion component.
-  (animation props applied in the styled-component definition 
+  (animation props applied in the styled-component definition
   via the attrs method)
 */
 const BlueBlock = styled(motion.div).attrs(() => ({
@@ -73,12 +73,19 @@ const AboutPage: React.FC<RouteComponentProps> = ({ location = {} }) => {
         description="Examples using the gatsby-starter-template-deluxe."
       />
       <h3>
-        Hi, you are on the <code>{path}</code> page!
+        EinsteinDB is an Open-world Embedded Knowledge Graph <code>{path}</code> with key-value and schema replicant journaling!
       </h3>
 
-      <StyledComponent1>I am a basic styled component.</StyledComponent1>
+      <StyledComponent1>EinsteinDB is built with Rust</StyledComponent1>
       <StyledComponent2>
-        My font color should change on a small device.
+        Inspired by early work at IBM pertaining to Time Shares in Lamport's part-time parliament; Automatic Failover, and Early concurrent versioning systems.
+        EinsteinDB offers the world of SQL a distributed, ACID compliant; Relativistic Linearizable, Causal Consistent Knowledge Graph. Use EinsteinDB to prune a High Throughput system
+        and virtualize a polymorphic, platform-agnostic, resource caching instrument. EinsteinDB leverages inevitable cluster partitions and traffic uptick with an improved parallelizable algorithm which corroborates asynchronously
+        the truthiness of values; offering a single-writer, multiple reader interface wherein clients are able to access isolated transactions and the embedded key-value stores inside the architecture.
+        In append-log fashion, keep tracks of indexed metadata tokenized filamnents of data structures that are robus 64bit time-travel friendly versioned stores inside what we call at EinsteinDB: The Cone.
+        Resources barter for future threading capacity based on the load at the moment of request; EinsteinDB interprets the deduplication and efficiently renders the most accurate value, which is composed of a future(lightlike) and past(timelike) timeline expression
+        of lambda parsing threads.
+
       </StyledComponent2>
 
       <BlocksWrapper>
